@@ -6,8 +6,7 @@ for row in f:
     if int(row) < mi and str(abs(int(row)))[-2:] == '25':
         mi = int(row)
 print(mi)
-import time
-time.sleep(2)
+
 c = 0
 ma = 0
 for i in range(len(l) - 2):

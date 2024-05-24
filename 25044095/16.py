@@ -6,4 +6,4 @@ def f(n):
         return n
     return n + 5 + f(n+5)
 
-print(f(1101) + f(1111))
+print(f(1101) - f(1111))
