@@ -7,8 +7,8 @@ for row in f:
     if int(row) > m and str(int(row))[-3:] == '221':
         m = int(row)
 print(m)
-import time
-time.sleep(3)
+# import time
+# time.sleep(3)
 counter = 0
 mi = 10000000
 for i in range(len(l) - 2):
